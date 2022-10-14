@@ -1,0 +1,143 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    /* 高度不用再给，公共样式文件已经有高度 */
+    /* height: 47px; */
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+
+
+.sk_bd ul li {
+    float: left;
+    overflow: hidden;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+
+}
+
+.sk_bd ul li p {
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.sk_bd .jiage {
+    padding-left: 15px;
+}
+
+.sk_bd .jiage h4 {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    color: #c81523;
+}
+
+.sk_bd .jiage span {
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.guodu {
+    text-align: center;
+}
+
+.guodu h5 {
+    float: left;
+    padding-left: 14px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.guodu_out {
+    float: left;
+    width: 130px;
+    height: 14px;
+    border: 1px solid red;
+    border-radius: 7px;
+    margin: 0 4px;
+}
+
+.guodu_in {
+    width: 87%;
+    height: 100%;
+    background-color: red;
+
+}
+
+.sk_bd .guodu p {
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+
+}
+
+.guodu p i {
+    color: #c81523;
+}
+
+.lijiqianggou {
+    width: 289px;
+    height: 49px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 49px;
+    background-color: #c81523;
+    margin-top: 45px;
+    color: #ffffff;
+}
